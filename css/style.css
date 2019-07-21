@@ -176,3 +176,16 @@ footer {
   margin-top: 25vh;
   padding-bottom: 5vh;
 }
+
+@media (max-width: 750px) {
+  p#generated {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  p#generated {
+    font-size: 28px;
+    line-height: 2.5;
+  }
+}
