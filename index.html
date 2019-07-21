@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>SMM 2 - Level Idea Generator</title>
+  <meta name="description" content="">
+  <meta name="author" content="Siraj Chokshi">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <div class="container">
+
+    <button onclick="genAll();" id="gen-button">Generate</button>
+
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <p id="generated">
+
+    <span>
+    A
+    <span id="style"><img src="images/styles/SMB.png" class="style"></span>
+    <input type="checkbox" id="styleLock">
+    <label for="styleLock"></label>
+
+    level with a
+
+    <span id="theme"><img src="images/themes/Ground.png" class="theme"></span>
+    <input type="checkbox" id="themeLock">
+    <label for="themeLock"></label>
+
+    theme at
+
+    <span id="time">Day</span>
+    <input type="checkbox" id="timeLock">
+    <label for="timeLock"></label>
+
+    with
+
+    <span id="else">Goombas & Koopa Troopas & Bowser</span>
+
+    </p>
+
+    <footer>
+      Copyright &copy; 2019 Siraj Chokshi, Source available on <a href="https://github.com/SirajChokshi/SMM2-Concept-Generator" target="_blank" rel="noreferrer">github.com</a> <br><br>
+      <b>Legal:</b>
+      This website was developed for the community of Super Mario Maker 2 and is in no way associated, authorized, endorsed or connected with with <a href="https://www.nintendo.com/" target="_blank" rel="noreferrer">Nintendo</a>. The software and trademarks regarding <i>Super Mario Maker 2, Super Mario Bros, Super Mario Bros. 3, Super Mario World, New Super Mario Bros. U</i> and <i>Super Mario 3D Land</i> are owned by Nintendo.
+    </footer>
+
+  </div>
+
+  <script src="https://use.fontawesome.com/87e367101d.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+
+</body>
+</html>

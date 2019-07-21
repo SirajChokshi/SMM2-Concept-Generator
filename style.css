@@ -1,0 +1,121 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* USER INTERFACE */
+
+#ui-panel {
+  width: 80vw;
+  height: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #F5F5F5;
+  padding: 15px;
+}
+
+#work-panel {
+  width: 80vw;
+  height: 100vw;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+/* BOXES AND WORK AREA */
+
+.box {
+  position: absolute;
+  z-index: 9;
+  background-color: #e6f2ff;
+  text-align: center;
+  min-width: 150px;
+  min-height: 130px;
+  border-radius: 6px;
+  background-color:
+}
+
+.box .boxheader {
+  border-radius: 6px 6px 0 0;
+  padding: 4px 8px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+  text-align: left;
+}
+
+a.dot-menu div {
+  height: 8px;
+  width: 8px;
+  padding: 0;
+  margin-right: 4px;
+  background-color: #e6f2ff;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+a.dot-menu div:nth-child(1):hover {
+  background-color: red;
+}
+
+a.dot-menu div:nth-child(2):hover {
+  background-color: yellow;
+}
+
+a.dot-menu div:nth-child(3):hover {
+  background-color: green;
+}
+
+.box .label {
+  font-weight: 600;
+  color: #2196F3;
+}
+
+.node {
+  display: none;
+  height: 8px;
+  width: 8px;
+  background-color: white;
+  border: 2px solid #2196F3;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.box:hover > .node {
+  display: block;
+}
+
+.node.up {left: calc(50% - 4px);top: -4px;}
+.node.right {right: -4px;top: calc(50% - 4px);}
+.node.left {left: -4px;top: calc(50% - 4px);}
+.node.down {left: calc(50% - 4px);bottom: -4px;}
+
+.clicked, .active {
+  background-color: #2196F3;
+  border-color: white;
+  display: block;
+}
