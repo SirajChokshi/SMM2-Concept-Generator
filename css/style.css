@@ -71,7 +71,7 @@ p#generated {
   position: relative;
 }
 
-#else {
+#else, #twist, #time {
   text-decoration: underline;
 }
 

@@ -6,7 +6,7 @@ var themes = ["Ground", "Underground", "Underwater", "Desert", "Snow", "Sky", "F
 var common = ["Banzai Bills", "Bloopers", "Bob-ombs", "Boos", "Boom Boom", "Bowser", "Bowser Jr.", "Bullet Bills", "Buzzy Beetles", "Chain Chomps", "Cheep Cheeps", "Dry Bones", "Pirahna Plants", "Fish Bones", "Goombas", "Hammer Bros", "Koopa Troopas", "Lakitu", "Lava Bubbles", "Magikoopas", "Monty Moles", "Moon", "Munchers", "Rocket Wrenches", "Sledge Bros", "Spike Tops", "Spinies", "Stretches", "Thwomps", "Twisters", "Wiggler"];
 var exclusives_all = ["the Angry Sun", "Poisonous Mushrooms"];
 var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet Bills", "Charvaargh", "Fire Bros", "Meowser", "Peepas", "Piranha Creepers", "Pom Pom", "Porcupuffer", "Skipsqueak", "Stingbies", "Koopa Cars", "clear pipes", "trees"];
-var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "require spin-jumps", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping"];
+var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "require spin-jumps", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping", "have a true ending"];
 var cursorArray = ['url("images/cursors/link1.png"), auto', 'url("images/cursors/link2.png"), auto', 'url("images/cursors/link3.png"), auto', 'url("images/cursors/link4.png"), auto'];
 
 i = 0;
@@ -102,9 +102,9 @@ function update(enemies, twist) {
   if(!$('#styleLock').prop('checked')) $('#style').html('<img src=\"images/styles/' + style + '.png\" class=\"style\" alt=\"' + style + '\" title=\"' + style + '\">');
   if(!$('#themeLock').prop('checked')) $('#theme').html('<img src=\"images/themes/' + theme + '.png\" class=\"theme\" alt=\"' + theme + '\" title=\"' + theme + '\">');
   if (day) {
-    $('#time').html("Day");
+    $('#time').html("day");
   }
-  else $('#time').html("Night");
+  else $('#time').html("night");
   if (!$('#enemiesLock').prop('checked')) $('#else').html(enemies);
   if (!$('#twistLock').prop('checked')) $('#twist').html(twist);
 }
