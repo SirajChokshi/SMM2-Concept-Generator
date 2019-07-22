@@ -27,10 +27,15 @@ button#gen-button {
   height: 44px;
   line-height: 38px;
   cursor: url('../images/cursors/default.png'), pointer;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0.85;
 }
 
 button#gen-button:hover {
-  border: #000 solid 3px;
+  opacity: 1;
 }
 
 img.style, img.theme {
