@@ -84,6 +84,7 @@ input[type=checkbox] + label:before {
   -o-transition: 0.2s;
   -moz-transition: 0.2s;
   transition: 0.2s;
+  cursor: url('../images/cursors/default.png'), pointer;
 }
 
 input[type=checkbox] + label:hover:before {
@@ -99,6 +100,7 @@ input[type=checkbox]:checked + label:before {
 
 input {
   display: none !important;
+  cursor: url('../images/cursors/default.png'), pointer;
 }
 
 .lds-roller {
