@@ -3,23 +3,34 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(249, 207, 0);
+  cursor: url('../images/cursors/default.png'), default;
+}
+
+h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
 }
 
 button#gen-button {
   margin: 0 auto;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 4vh;
+  margin-bottom: 0;
   background-color: #FFFFFF;
+  color: #000;
   border-radius: 10px;
   border: none;
-  cursor: pointer;
   display: block;
   font-size: 16px;
   font-weight: 700;
   height: 44px;
-  line-height: 19.2px;
-  width: 160px;
+  line-height: 38px;
+  cursor: url('../images/cursors/default.png'), pointer;
+}
+
+button#gen-button:hover {
+  border: #000 solid 3px;
 }
 
 img.style, img.theme {
@@ -42,7 +53,7 @@ p#generated {
   font-size: 32px;
   font-weight: 600;
   line-height: 2;
-  margin-top: 30vh;
+  margin-top: 20vh;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -172,14 +183,22 @@ input {
   }
 }
 
+a {
+  cursor: url('../images/cursors/link.gif'), pointer;
+}
+
 footer {
-  margin-top: 25vh;
+  margin-top: 28vh;
   padding-bottom: 5vh;
 }
 
 @media (max-width: 750px) {
   p#generated {
-    margin-top: 0;
+    margin-top: 10vh;
+  }
+  footer {
+    margin-top: 15vh;
+    padding-bottom: 5vh;
   }
 }
 
