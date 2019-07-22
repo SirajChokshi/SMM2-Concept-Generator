@@ -9,17 +9,6 @@ var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet
 var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "require spin-jumps", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping", "have a true ending"];
 var cursorArray = ['url("images/cursors/link1.png"), auto', 'url("images/cursors/link2.png"), auto', 'url("images/cursors/link3.png"), auto', 'url("images/cursors/link4.png"), auto'];
 
-i = 0;
-(function cursor(){
-  $('a').css('cursor', cursorArray[i]);
-  i++;
-  if(i == cursorArray.length){
-    i = 0;
-  }
-   setTimeout(cursor, 220);
-})();
-
-
 function genStyle() {
   if(!$('#styleLock').prop('checked')) {
     style = styles[Math.floor(Math.random() * styles.length)];
