@@ -5,7 +5,7 @@ var styles = ["SMB", "SMB3", "SMW", "NSMB", "3DW"];
 var themes = ["Ground", "Underground", "Underwater", "Desert", "Snow", "Sky", "Forest", "Ghost House", "Airship", "Castle"];
 var common = ["Banzai Bills", "Bloopers", "Bob-ombs", "Boos", "Boom Boom", "Bowser", "Bowser Jr.", "Bullet Bills", "Buzzy Beetles", "Chain Chomps", "Cheep Cheeps", "Dry Bones", "Pirahna Plants", "Fish Bones", "Goombas", "Hammer Bros", "Koopa Troopas", "Lakitu", "Lava Bubbles", "Magikoopas", "Monty Moles", "Moon", "Munchers", "Rocket Wrenches", "Sledge Bros", "Spike Tops", "Spinies", "Stretches", "Thwomps", "Twisters", "Wiggler"];
 var exclusives_all = ["the Angry Sun", "Poisonous Mushrooms"];
-var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet Bills", "Charvaargh", "Fire Bros", "Meowser", "Peepas", "Piranha Creepers", "Pom Pom", "Porcupuffer", "Skipsqueak", "Stingbies", "Koopa Cars", "clear pipes", "trees"];
+var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet Bills", "Charvaargh", "Fire Bros", "Meowser", "Peepas", "Piranha Creepers", "Pom Pom", "Porcupuffer", "Skipsqueaks", "Stingbies", "Koopa Cars", "clear pipes", "trees"];
 var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "require spin-jumps", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping", "have a true ending"];
 
 function genStyle() {
