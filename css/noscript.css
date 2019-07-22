@@ -1,0 +1,10 @@
+p#generated, button#gen-button {
+  display: none;
+}
+
+noscript#JS-warning p {
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}

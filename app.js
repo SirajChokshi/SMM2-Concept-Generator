@@ -7,7 +7,6 @@ var common = ["Banzai Bills", "Bloopers", "Bob-ombs", "Boos", "Boom Boom", "Bows
 var exclusives_all = ["the Angry Sun", "Poisonous Mushrooms"];
 var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet Bills", "Charvaargh", "Fire Bros", "Meowser", "Peepas", "Piranha Creepers", "Pom Pom", "Porcupuffer", "Skipsqueak", "Stingbies", "Koopa Cars", "clear pipes", "trees"];
 var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "require spin-jumps", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping", "have a true ending"];
-var cursorArray = ['url("images/cursors/link1.png"), auto', 'url("images/cursors/link2.png"), auto', 'url("images/cursors/link3.png"), auto', 'url("images/cursors/link4.png"), auto'];
 
 function genStyle() {
   if(!$('#styleLock').prop('checked')) {
