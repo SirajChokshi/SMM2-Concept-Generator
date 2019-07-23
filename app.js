@@ -44,6 +44,10 @@ function genStyle() {
         break;
       }
     }
+    if(twist == "require spin-jumps") {
+      var styles_movement = ["SMW", "NSMB", "3DW"];
+      style = styles_movement[Math.floor(Math.random() * styles_movement.length)];
+    }
   }
 }
 
@@ -117,7 +121,7 @@ function genAll() {
   }
 
 // TOODO add delay 800 & 1000 from 0
-  var delay = 800 + Math.random() * 1000;
+  var delay = 400 + Math.random() * 1400;
 
   setTimeout(function(){
     $('#generated').css('opacity', '1');
