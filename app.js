@@ -87,7 +87,7 @@ function genAll() {
     var list = common;
     if(style == "3DW") list = list.concat(exclusives_tdw);
     else list = list.concat(exclusives_not_tdw);
-    if(theme == "Ground" && day) list = list.concat(exclusives_day_ground);
+    if(theme == "Ground" && !day) list = list.concat(exclusives_day_ground);
     if(day && style != "3DW") list = list.concat(exclusives_day);
     else if(style != "3DW") list = list.concat(exclusives_night);
 
