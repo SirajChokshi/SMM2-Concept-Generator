@@ -78,6 +78,9 @@ function genAll() {
     if (item1 == "the Angry Sun" || item2 == "the Angry Sun" || item3 == "the Angry Sun") {
       day = true;
     }
+    if (style == "3DW") {
+      day = true;
+    }
   }
   /* Enemies/Gimmicks */
   if (!$('#enemiesLock').prop('checked')) {
