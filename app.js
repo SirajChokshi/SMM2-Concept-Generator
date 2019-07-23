@@ -124,7 +124,7 @@ function genAll() {
   }
 
 // TOODO add delay 800 & 1000 from 0
-  var delay = 400 + Math.random() * 1400;
+  var delay = 800 + Math.random() * 1000;
 
   setTimeout(function(){
     $('#generated').css('opacity', '1');
