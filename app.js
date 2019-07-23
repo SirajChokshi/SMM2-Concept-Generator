@@ -13,7 +13,7 @@ var exclusives_day_ground = ["Poisonous Mushrooms"];
 var exclusives_day = ["the Angry Sun"];
 var exclusives_night = ["the Moon"];
 var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet Bills", "Charvaargh", "Fire Bros", "Meowser", "Peepas", "Piranha Creepers", "Pom Pom", "Porcupuffer", "Skipsqueaks", "Stingbies", "Koopa Cars", "clear pipes", "trees"];
-var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping", "have a true ending"];
+var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping", "have a true ending", "focus on a powerup"];
 var twists_movement = ["require spin-jumps"];
 
 function reset() {
