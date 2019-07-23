@@ -1,5 +1,6 @@
 var style = null;
 var theme = null;
+var twist = null;
 var day = true;
 var item1 = "";
 var item2 = "";
@@ -121,6 +122,7 @@ function genAll() {
     var tempTwists = twists;
     if (style != "SMB" && style != "SMB3") tempTwists = tempTwists.concat(twists_movement);
     var tempTwist = tempTwists[Math.floor(Math.random() * tempTwists.length)];
+    twist = tempTwist;
   }
 
 // TOODO add delay 800 & 1000 from 0
