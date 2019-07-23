@@ -38,7 +38,7 @@ function genStyle() {
       }
     }
     for (var i = 0; i < exclusives_not_tdw.length; i++) {
-      if (item1 == exclusives_not_tdw[i] || item2 == exclusives_not_tdw[i] || item3 == exclusives_not_tdw[i] || day == true) {
+      if (item1 == exclusives_not_tdw[i] || item2 == exclusives_not_tdw[i] || item3 == exclusives_not_tdw[i]) {
         var styles_without_3DW = ["SMB", "SMB3", "SMW", "NSMB"];
         style = styles_without_3DW[Math.floor(Math.random() * styles_without_3DW.length)];
         break;
