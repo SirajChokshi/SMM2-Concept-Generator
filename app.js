@@ -62,6 +62,7 @@ function genAll() {
   if (!$('#themeLock').prop('checked')) {
     theme = themes[Math.floor(Math.random() * themes.length)];
   }
+
   /* Day/Night */
   if (!$('#timeLock').prop('checked')) {
     if (theme != "Ghost House" && Math.floor(Math.random() * 10) < 8) {
