@@ -1,6 +1,6 @@
 # SMM2-Concept-Generator
 
-Smartly generates a compatible (feasible) Mario Maker 2 level idea by providing 3 enemies, theme and theme. The generator allows any wanted setting to be locked and randomiez other aspects compatibally.
+Smartly generates a compatible (feasible) Mario Maker 2 level idea by providing 3 enemies, theme and theme. The generator allows any wanted setting to be locked and randomize other aspects compatability.
 
 Developed by **[@sirajchokshi](https://sirajchokshi.com)**, 2019
 
