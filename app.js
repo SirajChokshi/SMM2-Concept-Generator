@@ -7,12 +7,13 @@ var item2 = "";
 var item3 = "";
 var styles = ["SMB", "SMB3", "SMW", "NSMB", "3DW"];
 var themes = ["Ground", "Underground", "Underwater", "Desert", "Snow", "Sky", "Forest", "Ghost House", "Airship", "Castle"];
-var common = ["Banzai Bills", "Bloopers", "Bob-ombs", "Boos", "Boom Boom", "Bowser", "Bullet Bills", "Buzzy Beetles", "Chain Chomps", "Cheep Cheeps", "Dry Bones", "Pirahna Plants", "Fish Bones", "Goombas", "Hammer Bros", "Koopa Troopas", "Lakitu", "Lava Bubbles", "Magikoopas", "Monty Moles", "Munchers", "Sledge Bros", "Spike Tops", "Spinies", "Stretches", "Thwomps", "Twisters", "Wiggler", "Precision Platforming"];
-var exclusives_not_tdw = ["Bowser Jr.", "On/Off blocks", "Rocky Wrenches"];
-var exclusives_day_ground = ["Poisonous Mushrooms"];
+var common = ["Banzai Bills", "Bloopers", "Bob-ombs", "Boos", "Boom Boom", "Bullet Bills", "Buzzy Beetles", "Chain Chomps", "Cheep Cheeps", "Dry Bones", "Fire Piranha Plants",  "Fish Bones", "Goombas", "Green Koopa Troopas", "Hammer Bros",  "Lava Bubbles", "Magikoopas", "Monty Moles", "Munchers", "Piranha Plants" "Pokeys", "Red Koopas Troopas", "Sledge Bros", "Spikes", "Spike Tops", "Spinies", "Stretches", "Thwomps", "Twisters", "Wigglers", "Precision Platforming"];
+var exclusives_not_tdw = ["Bowser", "Bowser Jr.", "Bullsye Banzais", "Goombrats/Goombuds", "Iggy",  "Larry", "Lemmy", "Ludwig",  "Lakitus", "Morton", "On/Off blocks", "Rocky Wrenches", "Roy", "Wendy"];
+var exclusives_night_ground = ["Poisonous Mushrooms"];
 var exclusives_day = ["the Angry Sun"];
 var exclusives_night = ["the Moon"];
-var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet Bills", "Charvaargh", "Fire Bros", "Meowser", "Peepas", "Piranha Creepers", "Pom Pom", "Porcupuffer", "Skipsqueaks", "Stingbies", "Koopa Cars", "clear pipes", "trees"];
+var exclusives_snow = ["Snowballs", "Snow Pokeys"]
+var exclusives_tdw = ["Ant Troopers", "Bullies", "Cat Banzai Bills", "Cat Bullet Bills", "Charvaargh", "Fire Bros", "Heavy Fire Bros", "Meowser", "Peepas", "Piranha Creepers", "Pom Pom", "Porcupuffer", "Skipsqueaks", "Stingbies", "Koopa Cars", "clear pipes", "trees"];
 var twists = ["make it vertical", "add a boss battle", "design a puzzle", "use a sub-world", "make it a speedrun", "add custom music", "make it non-linear", "add a clear condition", "don't allow jumping", "have a true ending", "focus on a powerup"];
 var twists_movement = ["require spin-jumps"];
 
